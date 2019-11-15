@@ -140,6 +140,64 @@ img{
     height: 300px;
 }
 
+#card1 h1{
+    background-color: rgb(115,212,208);
+    width: 55%;
+    padding-left: 30px;
+}
+
+#card2 h1{
+    background-color: white;
+    color: black;
+    width: 55%;
+    padding-left: 30px;
+}
+
+#card3 h1{
+    background-color: white;
+    color: black;
+    width: 55%;
+    padding-left: 30px;
+}
+
+#card4 h1{
+    background-color: rgb(235,89,81);
+    color: black;
+    width: 55%;
+    padding-left: 30px;
+}
+
+#card4 p{
+    color: black;
+    padding-left: 30px;
+}
+
+.headpad{
+    padding-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
