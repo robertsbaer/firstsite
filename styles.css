@@ -115,29 +115,30 @@ img{
 }
 
 #card1{
-    background-color: pink;
+    background-color: rgb(235,89,81);
     width: 50%;
-    height: 200px;
+    height: 300px;
 }
 
 #card2{
-    background-color: green;
+    background-image: url(images/tunnel.jpg);
+    background-size: cover;
     width: 50%;
-    height: 200px;
+    height: 300px;
 }
 
 #card3{
-    background-color: skyblue;
+    background-image: url(images/womanpurple.webp);
+    background-size: cover;
     width: 50%;
-    height: 200px;
+    height: 300px;
 }
 
 #card4{
-    background-color: midnightblue;
+    background-color: rgb(115,212,208);
     width: 50%;
-    height: 200px;
+    height: 300px;
 }
-
 
 
 
