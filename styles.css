@@ -188,7 +188,7 @@ img{
       rgba(241, 175, 115, 0.75)
     ),
     /* bottom, image */
-    url(images/portrait-woma.jpg);
+    url(images/tribal-makeup.jpg);
     background-size: cover;
     width: 100%;
     height: 400px;
@@ -213,7 +213,7 @@ img{
 
 #herotexttwo{
     align-self: center;
-    padding-left: 20px;
+    padding-left: 60px;
     padding-right: 120px;
 }
 
@@ -222,6 +222,38 @@ img{
     color: white;
 }
 
+
+/*section with four blocks of images and one large*/
+
+#fourimages{
+    display: inline-grid;
+}
+
+#img1 {
+    background-image: url(images/foil.jpg);
+    height: 250px;
+    width: 50%;
+}
+
+#img2{
+    background-color: rgb(115,212,208);
+    height: 250px;
+    width: 50%;
+}
+
+#img3{
+    background-image: url(images/move-your-body.jpg);
+    height: 250px;
+    background-size: cover;
+    width: 50%;
+}
+
+#img4 {
+    background-image: url(images/concret-wall.jpg);
+    height: 250px;
+    background-size: cover;
+    width: 50%;
+}
 
 
 
