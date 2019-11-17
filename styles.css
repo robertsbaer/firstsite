@@ -30,6 +30,7 @@ h3{
 p{
     color: white;
     font-size: 18px;
+    padding-right: 30px;
 }
 
 button {
@@ -325,19 +326,54 @@ img{
 footer{
     display: flex;
     width: 100%;
+    margin-bottom: 100px;
 }
 
 #contactus{
-    width: 100%
+    width: 50%;
     height: 400px;
-    background-color: red;
 }
 
+#finalimage{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 400px;
+}
 
-
-#finalimage img{
+#footerend{
+    background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(to right,
+      rgba(242, 175, 115, 1.0), 
+      rgba(241, 175, 115, 0.75)
+    ),
+    /* bottom, image */
+    url(images/portrait-woma.jpg);
+    background-size: cover;
     width: 100%;
     height: 400px;
+    margin-bottom: 0;
+}
+
+#footertext{
+    width: 50%;
+    margin-left: 100px;
+    padding-top: 50px;
+}
+
+#footertext h1{
+    font-size: 20px;
+    font-size: 25px;
+}
+
+#footertext h2{
+    margin-top: 0;
+    font-size: 17px;
+}
+
+#icons{
+    height: 20px;
 }
 
 
