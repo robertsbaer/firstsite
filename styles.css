@@ -383,7 +383,7 @@ footer{
     width: 20%;
 }
 
-@media screen and (max-width: 416px) {
+@media screen and (max-width: 476px) {
 html, body{
     background: none;
     width: 100%;
@@ -457,8 +457,7 @@ button {
 
 
 #first{
-    display: flex;
-    flex-direction: column;
+    display: inline;
     margin-top: 0;
 }
 
@@ -482,8 +481,8 @@ button {
 }
 
 img{
-    height: 300px;
     width: 100%;
+    height: auto;
 }
 
 /*four boxes with links*/
@@ -565,19 +564,11 @@ img{
 
 
 #herotwo {
-      background: 
-    /* top, transparent red, faked with gradient */ 
-    linear-gradient(to right,
-      rgba(242, 175, 115, 1.0), 
-      rgba(241, 175, 115, 0.75)
-    ),
-    /* bottom, image */
-    url(images/tribal-makeup.jpg);
-    background-repeat: no-repeat;
+    background-size: contain;
     width: 100%;
-    height: 600px;
-    display: flex;
-    flex-direction: column;
+    height: auto;
+    display: inline-block;
+    
 }
 
 #numbertwo{
@@ -586,8 +577,6 @@ img{
     font-size: 160px;
     font-weight: 700;
     font-family: sans-serif;
-    text-align: center;
-    align-self: center;
 }
 
 #herotwo h2{
@@ -601,6 +590,7 @@ img{
 #herotwobutton{
     background-color: black;
     color: white;
+    margin-bottom: 20px;
 }
 
 
