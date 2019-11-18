@@ -1,5 +1,8 @@
-@media screen and (min-width: 1200px){
 html{
+    background-image: url(https://www.elsetge.cat/myimg/f/93-930656_vintage-floral-public-domain.jpg);
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
 }
 
 body{
@@ -380,8 +383,6 @@ footer{
     width: 20%;
 }
 
-}
-
 @media screen and (max-width: 416px) {
 html, body{
     background: none;
@@ -458,7 +459,6 @@ button {
 #first{
     display: flex;
     flex-direction: column;
-    height: 300px;
     margin-top: 0;
 }
 
@@ -477,6 +477,8 @@ button {
     background-color: rgb(115,212,208);
     width: 100%;
     padding-bottom: 20px;
+    text-align: center;
+    padding: 10px;
 }
 
 img{
@@ -708,7 +710,6 @@ footer{
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-bottom: 100px;
 }
 
 #contactus{
