@@ -384,13 +384,52 @@ footer{
 
 
 
-@media screen and (max-width 579px){
-    html{
-        max-width: 600px;
-        width: 100%;
-    }
-    
-    #hero{
+@media screen and (max-width: 416px) {
+html{
+    background: none;
+    width: 100%;
+}
+
+body{
+    width: 100%;
+    margin: auto;
+}
+
+h1{
+    color: white;
+    font-size: 25px;
+    font-weight: 200;
+    font-family: sans-serif;
+}
+
+h2{
+    color: white;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
+h3{
+    color: white;
+}
+
+p{
+    color: white;
+    font-size: 18px;
+    padding-right: 30px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 23px;
+    border-color: rgb(115,212,208);
+}
+
+/*hero section*/
+
+#hero{
     background: 
     /* top, transparent red, faked with gradient */ 
     linear-gradient(to right,
@@ -398,13 +437,337 @@ footer{
       rgba(241, 175, 115, 0.75)
     ),
     /* bottom, image */
-    url(images/foil.jpg);
+    url(images/portrait-woma.jpg);
     background-size: cover;
     width: 100%;
-    height: 100px;
+    height: 500px;
     margin-bottom: 0;
-    margin-top: 30px;
+    margin-top: 0;
 }
+
+#herotext{
+    width: 50%;
+    padding-top: 50px;
+    margin-left: 100px;
+}
+
+#herotext h1{
+    letter-spacing: 18px;
+    font-size: 50px;
+}
+
+/* first 3 boxes o1/ text / praying guy*/
+
+
+#first{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    margin-top: 0;
+}
+
+#first-num{
+    margin: 0;
+    background-color: rgb(4, 23, 45);
+    width: 100%;
+    font-size: 160px;
+    font-weight: 700;
+    font-family: sans-serif;
+    padding-top: 60px;
+    text-align: center;
+}
+
+#second{
+    background-color: rgb(115,212,208);
+    width: 93%;
+    padding-bottom: 20px;
+}
+
+img{
+    height: 300px;
+    width: 100%;
+}
+
+/*four boxes with links*/
+
+#fourboxes{
+    background-color: red;
+    height: 600px;
+}
+
+#cards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#card1{
+    background-color: rgb(235,89,81);
+    width: 100%;
+    height: 200px;
+}
+
+#card2{
+    background-image: url(images/tunnel.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
+#card3{
+    background-image: url(images/womanpurple.webp);
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
+#card4{
+    background-color: rgb(115,212,208);
+    width: 100%;
+    height: 200px;
+}
+
+#card1 h1{
+    background-color: rgb(115,212,208);
+    width: 55%;
+    padding-left: 30px;
+}
+
+#card2 h1{
+    background-color: white;
+    color: black;
+    width: 55%;
+    padding-left: 30px;
+}
+
+#card3 h1{
+    background-color: white;
+    color: black;
+    width: 55%;
+    padding-left: 30px;
+}
+
+#card4 h1{
+    background-color: rgb(235,89,81);
+    color: black;
+    width: 55%;
+    padding-left: 30px;
+}
+
+#card4 p{
+    color: black;
+    padding-left: 30px;
+}
+
+.headpad{
+    padding-left: 30px;
+}
+
+/*hero two with number and text*/
+
+
+#herotwo {
+      background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(to right,
+      rgba(242, 175, 115, 1.0), 
+      rgba(241, 175, 115, 0.75)
+    ),
+    /* bottom, image */
+    url(images/tribal-makeup.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+#numbertwo{
+    margin: 0;
+    color: white;
+    font-size: 160px;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: center;
+    align-self: center;
+}
+
+#herotwo h2{
+    margin-top: 0;
+}
+
+#herotexttwo{
+    padding-right: 20px;
+}
+
+#herotwobutton{
+    background-color: black;
+    color: white;
+}
+
+
+/*section with four blocks of images and one large*/
+
+#fourandone{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.images4{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 200%;
+    
+}
+
+#img1 {
+    background-image: url(images/foil.jpg);
+    height: 250px;
+    width: 50%;
+}
+
+#img2{
+    background-color: rgb(115,212,208);
+    height: 250px;
+    width: 50%;
+    text-align: center;
+}
+
+#wwd{
+    color: white;
+    padding-top: 40px;
+}
+
+#img2 button{
+    width: 30%;
+    height: 30px;
+    font-size: 16px;
+}
+
+#img3{
+    background-image: url(images/move-your-body.jpg);
+    height: 550px;
+    background-size: cover;
+    width: 50%;
+}
+
+#img4 {
+    background-image: url(images/concret-wall.jpg);
+    height: 250px;
+    background-size: cover;
+    width: 50%;
+}
+
+#largeimg{
+    background-image: url(images/woman-neon-makeup.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+/* text and image 3*/
+
+#textand3{
+    display: flex;
+    flex-direction: column;
+}
+
+#text3 {
+    background-color: rgb(4, 23, 45);
+    padding-top: 10%;
+}
+
+#image3{
+    background-image: url(images/neon-light-woman.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    text-align: end;
+}
+
+#image3 p{
+    font-size: 150px;
+    margin-right: 40px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+#text3 h2{
+    margin-left: 50px;
+}
+
+#text3 h1{
+    margin-left: 50px;
+}
+
+#text3 p{
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+/*footer with contact us and final image*/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+#contactus{
+    width: 100%;
+    height: 400px;
+}
+
+#finalimage{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+#footerend{
+    background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(to right,
+      rgba(242, 175, 115, 1.0), 
+      rgba(241, 175, 115, 0.75)
+    ),
+    /* bottom, image */
+    url(images/portrait-woma.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 0;
+}
+
+#footertext{
+    width: 50%;
+    margin-left: 100px;
+    padding-top: 50px;
+}
+
+#footertext h1{
+    font-size: 20px;
+    font-size: 25px;
+}
+
+#footertext h2{
+    margin-top: 0;
+    font-size: 17px;
+}
+
+#icons{
+    width: 50%;
+    padding-left: 90px;
+}
+
+#icons .iconssp{
+    height: 30px;
+    width: 20%;
+}
+    
     
 }
 
